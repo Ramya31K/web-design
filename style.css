@@ -1,0 +1,224 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust as needed */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px; /* Adjust spacing between menu items */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black; /* Adjust link color */
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding:20px;
+}
+
+
+.text {
+    flex: 1;
+    margin-right:50px;
+}
+
+.text h2 {
+    margin: 0;
+}
+
+.text p {
+    margin: 0;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+}
+.illustration-1 { 
+    width: 50%; 
+    height: 400px; 
+    margin: auto; 
+  } 
+   
+  .title { 
+    width: 100%; 
+    display: flex; 
+    flex-direction: row-reverse; 
+    margin: 50px 0; 
+  } 
+   
+  .title-heading { 
+    padding: 0 40px 0 0; 
+    width: 100%; 
+    margin: auto; 
+  } 
+   
+  .head { 
+    font-size: 35px;
+  } 
+   
+  .head-des { 
+    color:hsl(240, 22%, 79%);
+  }
+.btn-email { 
+    height: 40px; 
+    width: 300px; 
+    border: 1px solid; 
+    border-radius: 3px; 
+    padding-left: 20px; 
+  } 
+   
+  .btn-getstarted, .btn-getstarted2 { 
+    height: 45px; 
+    width: 200px; 
+    border: 1px solid; 
+    color: #fff; 
+    background-color: hsl(223, 72%, 34%); 
+    border-radius: 3px; 
+    margin: 7px 0; 
+    border-style: none; 
+  }
+.bottom { 
+    display: flex; 
+    justify-content: space-between; 
+  } 
+   
+  /* Footer */ 
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: #000; 
+  } 
+   
+  .attribution a { 
+    color: #000; 
+  } 
+   
+  /* Media Query */ 
+  @media(max-width:850px) { 
+    .logo { 
+      width: 25%; 
+    } 
+   
+    .nav-items { 
+      margin: 0; 
+      padding: 0 10px; 
+    } 
+   
+    .title { 
+      width: 100%; 
+      display: block; 
+    } 
+   
+    .illustration-1, .illustration-2 { 
+      padding: 30px 0; 
+      height: auto; 
+      width: 100%; 
+    } 
+   
+    .title-heading { 
+      text-align: center; 
+    } 
+   
+    .btn-email { 
+      width: 95%; 
+    } 
+   
+    .btn-getstarted { 
+      width: 100%; 
+    } 
+   
+    #container-2 { 
+      background-image: url("C:\Users\dhili\Desktop\dhilip\Images\images\bg-curve-mobile.svg"); 
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center center; 
+     } 
+   
+    .btn-getstarted2 {
+     width: 83%; 
+    } 
+   
+    .contents { 
+      width: 100%; 
+      display: block; 
+    } 
+   
+    .content-des, .head2-des { 
+      text-align: center; 
+      width: 100%; 
+      margin: auto; 
+    } 
+   
+    .founder { 
+      text-align: left; 
+      margin: 50px auto 70px; 
+      width: 80%; 
+    } 
+    .round-image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+   
+    #container-3 { 
+      display: block; 
+      margin: auto; 
+      text-align: center; 
+      padding: 50px 5px; 
+    } 
+   
+    .part-1, .part-2 { 
+      width: 100%; 
+      margin: auto; 
+    } 
+   
+    .bottom { 
+      display: block; 
+    } 
+   
+    #container-4 { 
+      padding: 50px 20px; 
+    } 
+   
+    .call-1, .call-2, .call-3, .call-4 { 
+      margin: 50px 0; 
+    } 
+   
+    .call-4 { 
+      text-align: center; 
+      margin: auto;
+    } 
+  }
+  @media(prefers-color-scheme:light){
+    body{
+        background-color: white;
+    }
+    h1,h2,h3,h4,h5,h6{
+        color:black;
+    }
+  }
+  @media (prefers-color-scheme:dark){
+    body{
+        background-color: #000;
+    }
+    h1,h2,h3,h4,h5,h6{
+        color:#fff;
+    }
+  }
+
+
